@@ -1,0 +1,27 @@
+1 - for:
+
+For es un bucle, nos permite realizar una acción mientras una condición se cumpla. 
+
+Para ello primero debemos definir una variable e inicializarla en un valor, por ejemplo, 0. Luego le indicaremos la condición: ¿Cúando o hasta dónde se ejecutará el bucle?, en este caso le podemos especificar que el bucle se ejecute mientras la variable que declaramos e inicializamos previamente con valor 0 tenga un valor menor que 10.
+
+Finalmente podemos incrementar o decrementar la variable anteriormente declarada con el valor que queramos. De esta forma podemos saber que si por cada iteración del bucle la variable que inicializamos en 0 aumentará en 1 y el bucle se ejecutará mientras el valor sea menor que 10, podemos saber que el bucle se ejecutará 10 veces. 
+
+2 - &&, || y !:
+
+AND, OR y NOT son operadores lógicos.
+
+AND (&&): Sirve para comparar dos declaraciones. Devolverá true si AMBAS declaraciones son verdaderas. Por ejemplo, si queremos saber si el nombre de una persona es "Juan" y tiene 28 años, podemos usar:
+
+if(nombre === "Juan" && edad === 28) {...}
+
+De esta forma nos aseguramos que la persona se llame Juan y si o si tenga 28 años.
+
+OR (||): Este operador funciona igual que el anterior (AND) pero devolverá true si al menos una sola declaración sea verdadera. Por ejemplo si queremos comprobar si el nombre de una persona es "Juan" ó "Damián" podemos usar:
+
+if(nombre === "Juan" || nombre === "Damián") {...}
+
+NOT (!): Este operador nos sirve para negar algo, si algo es true, automáticamente pasará a ser false. 
+
+Por ejemplo:
+
+if(!nombre === "Juan") anteriormente nos servía para saber si el nombre era "Juan", ahora todo lo contrario, queremos saber si el nombre NO es "Juan".

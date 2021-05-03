@@ -1,0 +1,25 @@
+1 - Variables:
+
+Una variable es como si fuera un espacio o un nuevo carácter al que le podemos asignar un valor específico. Ese valor lo podemos modificar o reutilizar, asi por ejemplo podríamos crear una variable que tenga como valor algún código o número largo, para que simplemente tengamos que acordarnos del nombre de la variable para referirnos a esa información y que nos sea mas fácil de manipular.
+
+2 - Strings:
+
+Un String es simplemente información en formato de texto plano, podría ser un solo carácter, por ejemplo "hola", podría ser una oración entera como "hola, ¿cómo estás?" ó incluso un número: "120".
+
+3 - Funciones:
+
+Las funciones tienen muchas utilidades, pero la forma mas fácil de describirlas es que son fragmentos de código que pueden recibir un valor, realizarán una tarea y a veces devolverán un nuevo valor. 
+
+Una función puede recibir (o no) argumentos, que son justamente los valores de los que hablaba arriba, también puede devolver (o no) un valor. 
+
+Podemos crear funciones para lo que queramos, por ejemplo, podríamos crear una función que reciba como valor solamente un nombre y que devuelva un saludo personalizado de cumpleaños.
+ 
+Las funciones son muy utiles a la hora de reutilizar código, ya que podemos usarlas para automatizar procesos repetivivos. 
+
+4 - Declaraciones "if":
+
+Las declaraciones If nos permiten realizar una acción de acuerdo a si una condición se cumple o no. Por ejemplo, si quisieramos crear saludos de cumpleaños para personas que sean mayores de 17 años solamente, podríamos comprobarlo mediante un If, evaluando en este caso si la edad > 17, entonces crearemos el saludo para la persona, de otra forma, el saludo no se creará.
+
+5 - Valores booleanos (true, false):
+
+Un valor booleano simplemente nos indica si algo es verdadero o falso, 0 o 1. En este caso es parte de la lógica empleada por las declaraciones If para comprobar si algo es cierto o no, como vimos en el anterior punto. 
