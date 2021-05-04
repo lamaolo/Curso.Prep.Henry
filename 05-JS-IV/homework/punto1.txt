@@ -1,0 +1,25 @@
+1 - Objetos:
+Los objetos, al igual que los arrays nos permiten guardar grandes cantidades de información que esté referenciada en la misma variable. Pero a diferencia de los arrays en el que cada elemento ocupa una posición del mismo, en los objetos tenemos la notación de clave-valor. Los valores de estas claves contienen información, y pueden ser cualquier tipo de dato: Strings, numeros, booleanos, incluso arrays u otros objetos
+
+2 - Propiedades:
+
+Las Propiedades son cada una de las claves del objeto definido. Las propiedades son la palabra clave que vamos a usar para acceder al valor que tienen en el objeto. Por ejemplo:
+
+const miObjeto = {
+  propiedad: "valor de la propiedad"
+}
+
+para acceder a la propiedad, usamos miObjeto.propiedad, y nos devolverá el valor "valor de la propiedad"
+
+
+3 - Métodos:
+
+Los métodos son propiedades que tienen como valor una función, lo que nos permitirá usar parentesis () para invocar a esa función.
+
+4 - Bucle for...in:
+
+Es una variación del bucle for tradicional, usado para recorrer objetos de forma mas sencilla. Cuando definimos un bucle for in, podemos acceder a cada una de las keys del objeto que estamos recorriendo, de esta forma usando notacion de corchetes [] podemos acceder al valor de cada una de esas keys.
+
+5 - Notación de puntos vs notación de corchetes:
+
+La notacion de puntos nos sirve para acceder al valor de un objeto, indicando el nombre de la propiedad, la notacion de corhcetes es mas amplia, ya que la podemos usar tanto en Arrays como en objetos, pero de diferente forma. En los arrays podemos usar miArray[0] para acceder al elemento que está en la posición 0 del array, nos devolverá su valor. Pero en objetos tenemos que especificar el NOMBRE de la propiedad, no podemos usar un indice: miObjeto["nombre"], no importa si "nombre" es la primer propiedad del objeto, no la podemos acceder con miObjeto[0], si o si tenemos que usar el nombre exacto.
