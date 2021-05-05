@@ -1,0 +1,21 @@
+1 - Callbacks:
+
+Un callback es una función que pasamos como argumento a otra función. Generalmente se llaman "cb" y los podemos ejecutar cuando queramos, pasandole también argumentos, por ejemplo:
+
+function salioBien(boolean, cb) {
+  if(boolean) {
+    cb("Salió bien")
+  } else {
+    cb("Salió mal")
+  }
+}
+
+
+salioBien(true, function(estado) {
+  console.log(estado) // salio bien
+})
+
+
+salioBien(false, function(estado) {
+  console.log(estado) // salio mal
+})
