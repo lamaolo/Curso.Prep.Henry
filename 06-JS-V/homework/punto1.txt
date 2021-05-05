@@ -1,0 +1,7 @@
+1 - Prototype:
+
+Es una propiedad de tipo objeto que tienen todas la funciones, mediante la cual le podemos agregar métodos y propiedades generales a la clase constructora para que cada instancia que creemos de esa "clase" no se la tengamos que dar por separado, sino que cada vez que la instanciemos ya tengamos acceso a todos esos métodos y propiedades previamente definimos. 
+
+2 - Constructors:
+ 
+Los constructors son funciones especiales que nos permiten crear una especie de plantilla o modelo para objetos que comparten propiedades y metodos en comun. Si por ejemplo quisieramos crear una gran cantidad de objetos similares, que tengan las mismas propiedades pero con diferentes valores, en vez de crearlos uno por uno y añadirle cada una de las propiedades manualmente, podriamos crear una "clase", que tenga todas esas propiedades ya definidas, y que solo tengamos que instanciarla con los nuevos valores.
