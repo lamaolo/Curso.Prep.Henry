@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+      }
+
+      .cv-container {
+        padding: 40px;
+        width: 90%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid gray;
+        box-shadow: rgba(53, 34, 34, 0.2) 0 0 20px;
+      }
+
+      #cv-titulo {
+        text-align: center;
+        border-bottom: 2px dashed black;
+      }
+
+      #foto {
+        width: 140px;
+        height: 140px;
+      }
+
+      #nombre {
+        margin: 10px 0;
+      }
+
+      #titulo {
+        margin: 0 0 25px;
+      }
+
+      #cv-descripcion {
+        margin-top: 25px;
+      }
+
+      #descripcion {
+        margin: 0;
+        text-align: center;
+      }
+
+      #skills {
+        margin-top: 25px;
+        display: flex;
+      }
+
+      .skill {
+        margin: 0 5px;
+        padding: 5px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .skill.js {
+        background-color: yellow;
+      }
+
+      .skill.html {
+        background-color: rgb(255, 111, 44);
+      }
+
+      .skill.react {
+        background-color: cyan;
+      }
+
+      .skill.node {
+        background-color: greenyellow;
+      }
+
+      #hobbies-title {
+        width: 100%;
+        margin: 25px 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #hobbies-title h2 {
+        margin: 0 20px;
+      }
+
+      #hobbies-title div {
+        height: 1px;
+        background-color: black;
+        width: 100%;
+      }
+
+      #hobbies {
+        width: 100%;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+      }
+
+      .hobbie {
+        padding: 5px 10px;
+        margin: 5px;
+        background-color: rgb(95, 95, 95);
+        color: white;
+        font-weight: bold;
+        border-radius: 1000px;
+      }
+
+      #henry {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="cv-container">
+      <section id="cv-titulo">
+        <img
+          id="foto"
+          src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg"
+          alt="Lucero Amaolo"
+        />
+        <h1 id="nombre">Lucero Amaolo</h1>
+        <p id="titulo">Estudiante</p>
+      </section>
+      <section id="cv-descripcion">
+        <p id="descripcion">
+          Mi nombre es Lucero Amaolo, tengo 18 años y soy bachiller en Cs.
+          Naturales. Estudio programación de forma autodidacta y hace .
+        </p>
+      </section>
+      <section id="skills">
+        <div class="skill js">JavaScript</div>
+        <div class="skill html">HTML5</div>
+        <div class="skill react">React</div>
+        <div class="skill node">Node</div>
+      </section>
+      <section id="hobbies-title">
+        <div></div>
+        <h2>Hobbies</h2>
+        <div></div>
+      </section>
+      <section id="hobbies">
+        <div class="hobbie">Programar</div>
+        <div class="hobbie">Mirar series</div>
+        <div class="hobbie">Estudiar</div>
+        <div class="hobbie">Escuchar música</div>
+      </section>
+      <section id="henry">
+        <h2>¿Por qué Soy Henry?</h2>
+        <p>
+          Decidí estudiar esta carrera para dar un salto en mi formación, ir más
+          allá de los tutoriales de internet y formarme como desarrollador
+          profesional.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
